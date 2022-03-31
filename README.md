@@ -1,26 +1,13 @@
 # Recog: A Recognition Framework
 
-[![Gem Version](https://badge.fury.io/rb/recog.svg)](http://badge.fury.io/rb/recog)
-[![Build Status](https://travis-ci.org/rapid7/recog.svg?branch=master)](https://travis-ci.org/rapid7/recog)
-
-
 Recog is a framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes. Recog makes it simple to extract useful information from web server banners, snmp system description fields, and a whole lot more.
-
-Recog is open source, please see the [LICENSE](https://raw.githubusercontent.com/rapid7/recog/master/LICENSE) file for more information.
-
-## Table of Contents
-
-1. [Installation](#installation)
-1. [Maturity](#maturity)
-1. [Fingerprints](#fingerprints)
-1. [Contributing](#contributing)
 
 ## Installation
 
 Recog consists of both XML fingerprint files and an assortment of code, mostly in Ruby, that makes it easy to develop, test, and use the contained fingerprints. In order to use the included ruby code, a recent version of Ruby (2.31+) is required, along with Rubygems and the `bundler` gem. Once these dependencies are in place, use the following commands to grab the latest source code and install any additional dependencies.
 
 ```shell
-$ git clone git@github.com:rapid7/recog.git
+$ git clone https://github.com/Transmetal/recog
 $ cd recog
 $ bundle install
 ```
@@ -92,13 +79,5 @@ They can then be loaded using the `_filename` attribute:
 ```
 
 This is useful for long examples.
-
-[^back to top](#recog-a-recognition-framework)
-
-## Contributing
-
-The users and maintainers of Recog would greatly appreciate any contributions
-you can make to the project. For guidelines and instructions please see
-[CONTRIBUTING.MD](CONTRIBUTING.md)
 
 [^back to top](#recog-a-recognition-framework)
